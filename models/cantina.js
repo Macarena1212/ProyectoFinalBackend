@@ -1,12 +1,12 @@
 const {Schema, model} = require('mongoose')
 
 const schema = new Schema({
-    nombre: {
+    Nombre: {
         type: String,
         required: true, 
         unique: true
     },
-    ingredientes: {
+    Ingredientes: {
         type: String,
         required: true
     },
